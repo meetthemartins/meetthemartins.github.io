@@ -1,5 +1,59 @@
-/* Sticky footer styles
--------------------------------------------------- */
+/* Cover page */
+.padding {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* Registry page */
+.glyphicon-large {
+  font-size: 600%;
+}
+
+.header-large {
+  font-size: 200%;
+}
+
+/* Info page */
+.info-panel > .row {
+  padding: 4%;
+}
+.icon-col {
+  font-size: 600%;
+}
+.info-col {
+  font-size: 200%;
+}
+
+@media (min-width: 768px) { 
+}
+
+@media (min-width: 992px) {
+  .time-row,
+  .date-row,
+  .place-row {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .info-panel > .row {
+    padding: 4%;
+  }
+}
+
+/* Centered Navbar */
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+/* Sticky footer styles */
 html {
   position: relative;
   min-height: 100%;
@@ -31,17 +85,6 @@ body > .container {
 .footer > .container {
   padding-right: 15px;
   padding-left: 15px;
-}
-
-/* Centered Navbar */
-.navbar .navbar-nav {
-  display: inline-block;
-  float: none;
-  vertical-align: top;
-}
-
-.navbar .navbar-collapse {
-  text-align: center;
 }
 
 /* Extra small devices (phones, less than 768px) */

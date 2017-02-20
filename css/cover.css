@@ -32,11 +32,15 @@ body {
 .cover {
   padding: 0 20px;
 }
-.cover .btn-lg {
-  padding: 10px 20px;
-  font-weight: bold;
+
+.cover-heading {
+  font-size: 400%;
+  letter-spacing: 5px;
 }
 
+.cover .lead {
+  font-size: 200%;
+}
 
 /*
  * Affix and center
