@@ -1,0 +1,11 @@
+/* Info page */
+.info-panel > .row {
+  padding: 50px;
+}
+.glyphicon-large {
+  font-size: 600%;
+}
+.info-large {
+  vertical-align: middle;
+  font-size: 200%;
+}
