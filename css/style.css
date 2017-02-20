@@ -1,11 +1,32 @@
+.footer {
+  background-color: #f5f5f5;
+}
+
 /* Info page */
 .info-panel > .row {
-  padding: 50px;
+  padding: 4%;
 }
-.glyphicon-large {
+.icon-col {
   font-size: 600%;
 }
-.info-large {
-  vertical-align: middle;
+.info-col {
   font-size: 200%;
+}
+
+@media (min-width: 768px) { 
+}
+
+@media (min-width: 992px) {
+  .time-row,
+  .date-row,
+  .place-row {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .info-panel > .row {
+    padding: 4%;
+  }
 }
