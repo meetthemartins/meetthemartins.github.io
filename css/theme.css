@@ -7,22 +7,88 @@ Light blue 2: #127DA1
 Purple: #5E2874
 Navy: #28264B
 
-Navy lighter 10%:
-Navy lighter 10%:
-Navy lighter 10%:
-Navy lighter 10%:
-Navy lighter 10%:
-Navy lighter 10%:
-Navy lighter 10%:
-Navy lighter 10%:
+Navy Lighter 5%: #353358
+
+Navy lighter 10%: #424065
+Navy lighter 20%: #5B597E
+Navy lighter 30%: #757398
+Navy lighter 40%: #8E8CB1
+Navy lighter 50%: #A7A5CA
+Navy lighter 60%: #C1BFE4
+Navy lighter 70%: #DBD9FE
+Navy lighter 80%: #F4F2FF
 */
 
 body,
 .btn-default {
-  background-color: #28264B
+  color: #fff;
+  background-color: #28264B;
 }
 
-body,
-.btn-default {
+.footer {
+  background-color: transparent;
+}
+
+.text-muted {
+  color: #5B597E;
+}
+
+hr,
+.page-header {
+  border-color: #757398;
+}
+
+/* Navbar styles */
+.navbar-default {
+  background-color: #28264B;
+  border: none;
+}
+
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > .active > a {
+  color: #DBD9FE;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > .active > a:focus {
   color: #fff;
+  background-color: transparent;
+}
+
+@media (min-width: 768px) {
+  .navbar-default {
+    background-color: transparent;
+  }
+  
+  .navbar-default .navbar-nav > .active > a {
+    border-bottom: 2px solid #DBD9FE;
+  }
+  
+  .navbar-default .navbar-nav > .active > a:hover {
+    border-color: #fff;
+  }
+}
+
+.navbar-default .navbar-collapse {
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.navbar-default .navbar-toggle,
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+  border: none;
+}
+
+.navbar-default .navbar-toggle.collapsed > .icon-bar {
+  background-color: #A7A5CA;
+}
+
+.navbar-default .navbar-toggle > .icon-bar {
+  background-color: #fff;
 }
