@@ -1,0 +1,28 @@
+/*
+Colors
+=======
+Ice blue: #6ADBC9
+Light blue: #009DBA
+Light blue 2: #127DA1
+Purple: #5E2874
+Navy: #28264B
+
+Navy lighter 10%:
+Navy lighter 10%:
+Navy lighter 10%:
+Navy lighter 10%:
+Navy lighter 10%:
+Navy lighter 10%:
+Navy lighter 10%:
+Navy lighter 10%:
+*/
+
+body,
+.btn-default {
+  background-color: #28264B
+}
+
+body,
+.btn-default {
+  color: #fff;
+}
