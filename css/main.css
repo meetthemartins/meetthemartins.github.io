@@ -20,7 +20,7 @@ body {
 }
 
 body > .container {
-  padding: 60px 15px 0;
+  padding: 0 15px 0;
 }
 
 .container .text-muted {
@@ -101,16 +101,20 @@ hr {
 }
 
 .info {
-  font-size: 120%;
+  font-size: 140%;
 }
 
 @media (min-width: 768px) {
+  .info-container {
+    margin-top: 50px;
+  }
+  
   .info-container .glyphicon-large {
     font-size: 500%;
   }
   
   .info {
-    font-size: 150%;
+    font-size: 200%;
   }
   
   .hr-info {
@@ -119,12 +123,26 @@ hr {
 }
 
 @media (min-width: 992px) {
+  .info-container {
+    margin-top: 70px;
+  }
+  
   .info-container .row {
     display: flex;
     align-items: center;
   }
+  
+  .info-container .glyphicon-large {
+    font-size: 600%;
+  }
+  
+  .info {
+    font-size: 200%;
+  }
 }
 
 @media (min-width: 1200px) {
-  
+  .info-container {
+    margin-top: 120px;
+  }
 }
