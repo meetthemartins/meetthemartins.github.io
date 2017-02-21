@@ -21,3 +21,17 @@ input {
   padding: 15px 5px;
   margin: 0 10px;
 }
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/*
+@media (min-width: 768px) { 
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
+*/
