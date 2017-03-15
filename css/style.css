@@ -16,6 +16,10 @@ input {
   /*font-family: 'Sacramento', cursive;*/
 }
 
+.cover-heading.cursive {
+  font-size: 500%;
+}
+
 /* Footer */
 .footer {
   /*background-color: #f5f5f5;*/
