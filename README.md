@@ -4,6 +4,9 @@ _[meetthemartins.github.io](https://meetthemartins.github.io)_
 Wedding website for Stephanie Bonney and Chris Martin
 
 ---
+### Fonts
+[Roboto Condensed](https://fonts.google.com/specimen/Roboto+Condensed) 
+
 ### Color scheme
 Ice blue: #6ADBC9  
 Light blue: #009DBA  
