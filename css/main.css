@@ -91,37 +91,37 @@ hr {
   margin-bottom: 50px;
 }
 
-.form-lg .btn-default .glyphicon {
+.form-lg .btn-checkbox .glyphicon {
   display: none;
 }
 
-.form-lg .btn-default:hover .glyphicon,
-.form-lg .btn-default:active .glyphicon,
-.form-lg .btn-default:focus .glyphicon,
-.form-lg .btn-default.active.focus .glyphicon, 
-.form-lg .btn-default.active:focus .glyphicon, 
-.form-lg .btn-default.active:hover .glyphicon, 
-.form-lg .btn-default:active.focus .glyphicon, 
-.form-lg .btn-default:active:focus .glyphicon, 
-.form-lg .btn-default:active:hover .glyphicon  {
+.form-lg .btn-checkbox:hover .glyphicon,
+.form-lg .btn-checkbox:active .glyphicon,
+.form-lg .btn-checkbox:focus .glyphicon,
+.form-lg .btn-checkbox.active.focus .glyphicon, 
+.form-lg .btn-checkbox.active:focus .glyphicon, 
+.form-lg .btn-checkbox.active:hover .glyphicon, 
+.form-lg .btn-checkbox:active.focus .glyphicon, 
+.form-lg .btn-checkbox:active:focus .glyphicon, 
+.form-lg .btn-checkbox:active:hover .glyphicon  {
   display: inline-block;
 }
 
 @media (min-width: 768px) {
-  .form-lg .btn-default .glyphicon {
+  .form-lg .btn-checkbox .glyphicon {
     display: inline-block;
     visibility: hidden;
   }
   
-  .form-lg .btn-default:hover .glyphicon,
-  .form-lg .btn-default:active .glyphicon,
-  .form-lg .btn-default:focus .glyphicon,
-  .form-lg .btn-default.active.focus .glyphicon, 
-  .form-lg .btn-default.active:focus .glyphicon, 
-  .form-lg .btn-default.active:hover .glyphicon, 
-  .form-lg .btn-default:active.focus .glyphicon, 
-  .form-lg .btn-default:active:focus .glyphicon, 
-  .form-lg .btn-default:active:hover .glyphicon  {
+  .form-lg .btn-checkbox:hover .glyphicon,
+  .form-lg .btn-checkbox:active .glyphicon,
+  .form-lg .btn-checkbox:focus .glyphicon,
+  .form-lg .btn-checkbox.active.focus .glyphicon, 
+  .form-lg .btn-checkbox.active:focus .glyphicon, 
+  .form-lg .btn-checkbox.active:hover .glyphicon, 
+  .form-lg .btn-checkbox:active.focus .glyphicon, 
+  .form-lg .btn-checkbox:active:focus .glyphicon, 
+  .form-lg .btn-checkbox:active:hover .glyphicon  {
     visibility: visible;
   }
 }

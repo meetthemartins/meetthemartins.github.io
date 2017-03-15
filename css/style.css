@@ -11,6 +11,11 @@ input {
   letter-spacing: 2px;
 }
 
+.cursive {
+  font-family: 'Dancing Script', cursive;
+  /*font-family: 'Sacramento', cursive;*/
+}
+
 /* Footer */
 .footer {
   /*background-color: #f5f5f5;*/
