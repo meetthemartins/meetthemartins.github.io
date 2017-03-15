@@ -5,7 +5,8 @@ Wedding website for Stephanie Bonney and Chris Martin
 
 ---
 ### Fonts
-[Roboto Condensed](https://fonts.google.com/specimen/Roboto+Condensed) 
+[Roboto Condensed](https://fonts.google.com/specimen/Roboto+Condensed)  
+[Dancing Script](https://fonts.google.com/specimen/Dancing+Script)
 
 ### Color scheme
 Ice blue: #6ADBC9  
