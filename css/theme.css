@@ -33,11 +33,11 @@ body {
 .btn-default:hover,
 .btn-default:active,
 .btn-default:focus,
-.btn-default.active.focus, 
-.btn-default.active:focus, 
-.btn-default.active:hover, 
-.btn-default:active.focus, 
-.btn-default:active:focus, 
+.btn-default.active.focus,
+.btn-default.active:focus,
+.btn-default.active:hover,
+.btn-default:active.focus,
+.btn-default:active:focus,
 .btn-default:active:hover {
   color: #fff;
   background-color: transparent;
@@ -85,11 +85,11 @@ hr {
     /*background-color: transparent;*/
     background-color: #28264B;
   }
-  
+
   .navbar-default .navbar-nav > .active > a {
     border-bottom: 2px solid #DBD9FE;
   }
-  
+
   .navbar-default .navbar-nav > .active > a:hover {
     border-color: #fff;
   }
@@ -183,6 +183,12 @@ hr {
 
 .modal-footer p {
   color: #A7A5CA;
+}
+
+/* Image/thumbnail styles */
+.img-thumbnail {
+  border-color: #5E2874;
+  background-color: #6ADBC9;
 }
 
 /* ---- */
