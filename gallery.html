@@ -9,7 +9,8 @@ title: Gallery
       {% for image in site.static_files %}
         {% if image.path contains 'images/thumbnails' %}
           <div class="gallery">
-            <a class="gallery-thumbnail" data-src="{{site.baseurl }}images/gallery/{{ image.name }}">
+            <a class="gallery-thumbnail" data-src="{{ image.path }}">
+              <!-- images/gallery/{{ image.name }} -->
               <img class="img-responsive" src="{{ site.baseurl }}{{ image.path }}" alt="image">
             </a>
           </div>

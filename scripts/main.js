@@ -1,7 +1,8 @@
 $(document).ready(function() {
   $('.gallery-thumbnail').on('click', function() {
-    var newSource = $(this).attr('data-src');
-    $('.gallery-enlarge').attr('src', newSource);
+    var name = $(this).attr('data-src').split('/');
+    var path = '/images/gallery/' + name[name.length-1];
+    $('.gallery-enlarge').attr('src', path);
     $('#gallery-modal').modal('show');
   });
 });
